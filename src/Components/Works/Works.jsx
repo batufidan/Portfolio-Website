@@ -26,6 +26,29 @@ const Works = () => {
                 
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94"}}></div>
             </div>
+
+            <div className="w-right">
+                <div className="w-mainCircle">
+                    <div className="w-secCircle">
+                        <img src={Upwork} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Fiverr} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Amazon} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Shopify} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={Facebook} alt="" />
+                    </div>
+
+                    <div className="w-backCircle blueCircle"></div>
+                    <div className="w-backCircle yellowCircle"></div>
+                </div>
+            </div>
         </div>
     )
 }
@@ -34,4 +57,3 @@ const Works = () => {
 export default Works
 
 
-1:20:50
